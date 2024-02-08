@@ -1,0 +1,18 @@
+{
+  "name": "studi-kasus-fe-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run react\" \"npm run express\"",
+    "react": "cd client && npm start",
+    "express": "cd server && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
