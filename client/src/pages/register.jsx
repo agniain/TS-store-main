@@ -42,8 +42,8 @@ const Signup = () => {
       <div className='w-full flex items-center justify-center h-screen'>
         <div className='w-1/3 p-4 border'>
         {registrationSuccess ? (
-          <div className="border border-gray-600 mt-5 py-4">
-            <div className="text-black mb-4">
+          <div className="mt-5 py-4 text-center">
+            <div className="text-black text-2xl mb-4">
               Selamat, akun berhasil terdaftar!
             </div>
             <div className="mt-4">

@@ -108,7 +108,7 @@ const Product = () => {
             className="cursor-pointer p-2 md:p-4 border rounded-md transition-all duration-300 hover:shadow-md hover:opacity-60"
           >
             <img
-              src={`http://localhost:3001/images/products/${product.image_url}`}
+              src={`http://localhost:3002/images/products/${product.image_url}`}
               alt={product.name}
               className="mb-2 h-60 rounded-md object-cover mx-auto"
             />
@@ -130,7 +130,7 @@ const Product = () => {
         <span>
           Page {currentPage} of {totalPages}
         </span>
-        <button onClick={handleNextClick} disabled={currentPage === totalPages} className="bg-cyan-950 text-white px-4 py-2 rounded-md mr-2">
+        <button onClick={handleNextClick} disabled={currentPage === totalPages} className="bg-cyan-950 text-white px-4 py-2 rounded-md mx-2">
           Next
         </button>
       </div>

@@ -63,6 +63,7 @@ const Navbar = () => {
             <Link to="/categories/T-shirt/products" className="block py-1">T-Shirt</Link>
             <Link to="/categories/Hoodie/products" className="block py-1">Hoodie</Link>
           </div>
+          
         </div>
         {isAuthenticated ? (
           <div className="flex items-center space-x-4">

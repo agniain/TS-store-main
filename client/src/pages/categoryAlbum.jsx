@@ -35,7 +35,7 @@ const CategoryAlbum = () => {
             className="cursor-pointer p-2 md:p-4 border rounded-md transition-all duration-300 hover:shadow-md"
           >
             <img
-              src={`http://localhost:3001/images/products/${product.image_url}`}
+              src={`http://localhost:3002/images/products/${product.image_url}`}
               alt={product.name}
               className="mb-2 rounded-md"
             />

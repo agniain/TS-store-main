@@ -81,14 +81,14 @@ const Detail = () => {
   <div className="w-1/3 h-screen mx-auto p-2 border">
     <h1 className="text-4xl mb-3 text-center">Detail Produk</h1>
     {addToCartSuccess && (
-      <div className="bg-green-200 text-green-800 p-2 mb-4">
+      <div className="bg-green-200 text-green-800 text-center p-2 mb-4">
         Berhasil ditambahkan ke keranjang!
       </div>
     )}
     <div key={prodById._id} className="flex flex-col items-center">
       <img
         className="mb-4 rounded h-72 object-cover"
-        src={`http://localhost:3001/images/products/${prodById.image_url}`}
+        src={`http://localhost:3002/images/products/${prodById.image_url}`}
         alt={prodById.name}
       />
       <div className="text-left w-full max-w-xl">

@@ -55,7 +55,7 @@ const Cart = () => {
         {cartItems.products.map((product, index) => (
           <div key={product.productId._id} className="flex items-center mb-4">
             <img
-              src={`http://localhost:3001/images/products/${product.productId.image_url}`}
+              src={`http://localhost:3002/images/products/${product.productId.image_url}`}
               alt={product.productId && product.productId.name}
               className="h-12 w-auto mr-2 flex-shrink-0"
             />
